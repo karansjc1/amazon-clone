@@ -10,13 +10,15 @@
   width: 100%;
   background-color: white;
   z-index: 1;
+  border-radius: 10px;
 }
-
+.product:hover {
+  background-color: #ffffff77;
+}
 .product__info {
   height: 100px;
   margin-bottom: 15px;
 }
-
 .product__price {
   margin-top: 5px;
 }
@@ -38,4 +40,9 @@
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  cursor: pointer;
+}
+
+.product > button:hover {
+  background-color: #f0c14bbb;
 }
